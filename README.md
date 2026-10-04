@@ -10,6 +10,6 @@ This repository contains the project webpage, paper, figures, and robot demonstr
 
 ## Update the website
 
-Edit `index.html`, `style.css`, or `main.js`, and update assets in `paper/`, `posters/`, or `pbfm_site_media/`. Push changes to `main`; GitHub Pages publishes from the repository root.
+Edit `index.html`, `style.css`, or `main.js`, and update assets in `paper/`, `posters/`, or `pbfm_site_media/`. Push website changes to `pages`; GitHub Pages publishes from the root of this branch. The `main` branch is reserved for project code.
 
 The original anonymous review website is hosted separately.
