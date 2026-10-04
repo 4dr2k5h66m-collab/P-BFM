@@ -109,6 +109,8 @@ footer { max-width: 1088px; margin: 0 auto; padding: 30px 0; border-top: 1px sol
 .footer-paper { color: var(--accent); font-size: 14px; font-weight: 600; }
 .contact { flex-basis: 100%; text-align: center; color: var(--muted); font-size: 14px; padding-top: 5px; }
 .contact a { color: var(--accent); }
+.visitor-count { display: block; margin-bottom: 8px; }
+.visitor-count strong { color: var(--accent); font-variant-numeric: tabular-nums; }
 @media (max-width: 900px) {
   .nav { padding-inline: 28px; }
   .content,.demo { padding-inline: 28px; }

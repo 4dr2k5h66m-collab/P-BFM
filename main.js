@@ -30,3 +30,13 @@ for (const gallery of document.querySelectorAll('.more-clips')) {
     if (!gallery.open) for (const video of gallery.querySelectorAll('video')) video.pause();
   });
 }
+
+// Page UV keeps P-BFM separate from other projects on roboparty.github.io.
+// Local previews do not load the counter; unavailable counts remain a dash.
+if (location.hostname === 'roboparty.github.io' && location.pathname.startsWith('/P-BFM/')) {
+  const counter = document.createElement('script');
+  counter.src = 'https://busuanzi.9420.ltd/js';
+  counter.async = true;
+  counter.dataset.style = 'comma';
+  document.body.append(counter);
+}
