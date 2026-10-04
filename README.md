@@ -1,15 +1,14 @@
 # P-BFM
 
-Project website for **Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning**.
+**Perceptive Behavioral Foundation Models for Humanoid Control via Unsupervised Reinforcement Learning**
 
-- Website: https://roboparty.github.io/P-BFM/
+- Project website: https://roboparty.github.io/P-BFM/
 - Affiliation: RoboPartyLab
 - Contact: xuewangusst@gmail.com
 
-This repository contains the project webpage, paper, figures, and robot demonstration videos.
+## Repository branches
 
-## Update the website
+- `main`: project code. Code has not been uploaded yet.
+- `pages`: project website, paper, figures, and demonstration videos. GitHub Pages publishes from the root of this branch.
 
-Edit `index.html`, `style.css`, or `main.js`, and update assets in `paper/`, `posters/`, or `pbfm_site_media/`. Push changes to `main`; GitHub Pages publishes from the repository root.
-
-The original anonymous review website is hosted separately.
+Website updates should be committed to `pages`, independently of code changes on `main`.
