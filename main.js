@@ -11,7 +11,8 @@ toggle.addEventListener('click', () => {
   if (background.paused) background.play().catch(updateToggle);
   else background.pause();
 });
-if (!matchMedia('(prefers-reduced-motion: reduce)').matches) background.play().catch(updateToggle);
+// Keep the mobile hero still; playback remains available on request.
+if (matchMedia('(prefers-reduced-motion: no-preference) and (min-width: 561px)').matches) background.play().catch(updateToggle);
 for (const video of videos) video.addEventListener('play', () => {
   background.pause();
   for (const other of videos) if (other !== video) other.pause();
