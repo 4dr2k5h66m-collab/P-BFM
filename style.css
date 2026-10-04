@@ -35,10 +35,11 @@ h1 { font-weight: 650; line-height: 1.23; }
 .paper-title { display: block; font-size: clamp(26px, 3vw, 40px); letter-spacing: -.9px; text-wrap: balance; }
 h1 small { display: block; font-size: clamp(17px, 1.7vw, 23px); font-weight: 450; line-height: 1.5; margin-top: 12px; text-wrap: balance; }
 .hero-description { max-width: 650px; margin: 26px auto 24px; font-size: 17px; color: #eef8f5; text-wrap: balance; }
-.hero-links { display: flex; justify-content: center; gap: 12px; }
-.button { padding: 11px 24px; border: 1px solid #ffffff8a; border-radius: 6px; font-size: 14px; font-weight: 600; background: #ffffff0d; }
+.hero-links { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; }
+.button { padding: 11px 24px; border: 1px solid #ffffff8a; border-radius: 6px; font-family: inherit; font-size: 14px; font-weight: 600; line-height: inherit; white-space: nowrap; background: #ffffff0d; }
 .button.primary { background: #f4fffa; color: #164d3d; border-color: #f4fffa; }
-.button:hover { background: #b9eddb; border-color: #b9eddb; color: #123c30; }
+.button:not(:disabled):hover { background: #b9eddb; border-color: #b9eddb; color: #123c30; }
+.button:disabled { color: #dbe8e3; border-color: #ffffff50; cursor: default; }
 .affiliation { display: block; width: 224px; margin: 30px auto 0; }
 .affiliation img { display: block; width: 100%; filter: brightness(0) invert(1); }
 .background-toggle { position: absolute; bottom: 16px; right: 24px; background: #0b1b24aa; border: 1px solid #ffffff70; color: #fff; border-radius: 5px; padding: 8px 12px; font: inherit; font-size: 12px; cursor: pointer; }
