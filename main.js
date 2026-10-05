@@ -2,7 +2,7 @@ const background = document.querySelector('.hero-background');
 const toggle = document.querySelector('.background-toggle');
 const videos = [...document.querySelectorAll('video:not(.hero-background)')];
 function updateToggle() {
-  toggle.textContent = background.paused ? 'Play preview' : 'Pause preview';
+  toggle.textContent = background.paused ? 'Play background' : 'Pause background';
   toggle.setAttribute('aria-pressed', String(!background.paused));
 }
 background.addEventListener('play', updateToggle);
