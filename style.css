@@ -29,7 +29,7 @@ video { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: contain; 
 .hero-title { min-width: 0; }
 .hero-film { min-width: 0; overflow: hidden; border: 1px solid #ffffff30; border-radius: 12px; background: #193735; }
 .hero-film-frame { position: relative; }
-.hero-background { aspect-ratio: 16 / 9; }
+.hero-background { aspect-ratio: 4 / 3; }
 .hero-film figcaption { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 12px; margin: 0; padding: 13px 16px; font-size: 12px; color: #c7dcd6; }
 .hero-film figcaption span:first-child { color: #fff; font-weight: 600; }
 h1 { font-weight: 650; line-height: 1.23; }
